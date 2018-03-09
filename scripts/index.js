@@ -1,7 +1,7 @@
 
 $(function(){
 
-	var mask = '<span style="position:absolute; top:600; left:73.5%; padding: 0 60px 0 60px; background-color:black;">000-000-0000</span>';
+	var mask = '<span style="position:absolute; top:600; left:70%; padding: 0 60px 0 60px; background-color:black;">000-000-0000</span>';
 
 	$('.num').append(mask);
 	$('.num').hover(function(){

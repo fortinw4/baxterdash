@@ -215,10 +215,10 @@ section img {
 
 .home {
 	background-image: url('../images/hard-drive-dark.png');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+	background-size: initial;
+	-webkit-background-size: initial;
+	-moz-background-size: initial;
+	-o-background-size: initial;
 	background-color: #cccccc;
 	min-height: 100%;
 	color: #fff;

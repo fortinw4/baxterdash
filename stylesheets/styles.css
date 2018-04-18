@@ -1,0 +1,363 @@
+/*********************************************************
+		Inherited Styles
+**********************************************************/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Century Gothic', 'Helvetica';
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(#aeb1b1, #fff, #000); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#aeb1b1, #fff, #000); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#aeb1b1, #fff, #000); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(#aeb1b1, #fff, #000); /* Standard syntax */
+	font-size: 1.2em;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h2 {
+	margin-bottom: 2%;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+section h3 {
+height: 68px;	
+}
+
+section img {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+}
+
+@media screen and (min-width: 390px) {
+
+
+
+
+h3, section h2 {
+	font-family: 'Courier';
+	text-align: center;
+}
+
+section p {
+	margin: 0 auto;
+	line-height: 150%;
+	width: 30%;
+	font-size: 1.2em;
+}
+
+section img {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 0 -.4% 0 2%;
+	border: 5px solid black;
+	width: 23%;
+}
+
+.headline-banner {
+	position: relative;
+	z-index: -1;
+	display: inline-block;
+	height: 40px;
+	background-color: #94db4c;
+	width: 65%;
+	vertical-align: middle;
+	border: 5px solid black;
+	margin: 0 0 17% 0;
+}
+
+.main-header {
+	color: #fff;
+	background-color: #292929;
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 1%;
+}
+
+.main-nav {
+	text-align: center;
+}
+
+.main-nav ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 2%;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown:after {
+	position: absolute;
+}
+
+.dropdown a {
+	padding: 2px;
+	margin-top: 5px;
+}
+
+.drop-nav, .up-nav {
+	position: absolute;
+	display: none;
+}
+
+.dropdown:hover > .drop-nav {
+	display: block;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.rise-up:hover > .up-nav {
+	display: block;	
+	position: relative;
+	right: 0;
+	bottom: 120px;
+}
+
+.drop-nav li {
+	margin: 5% 0 0 0;
+	border-radius: 7%;
+}
+
+.up-nav li {
+	margin: 0 0 5% 0;	
+}
+
+.drop-nav li:nth-child(1) {
+	margin: 20% 10% 0 0;
+}
+
+.up-nav li:nth-child(1) {
+	margin: 0 0 20% 0;
+}
+
+.sub-header {
+	background-color: #2d2942;
+	margin: 0 0 10% 0;
+}
+
+.sub-header address {
+	color: #fff;
+	text-align: center;
+}
+
+.sub-header address a, .sub-header address p {
+	display: inline-block;
+	background-image: url('../images/email-icon-28h.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 20px 0px 20px 100px;	
+	margin-right: 95px;
+}
+
+.sub-header address p {
+	background-image: url('../images/phone-icon-28h.png');
+}
+
+.sub-header address .sub-contact {
+	background-image: none;	
+}
+
+.description {
+	text-align: center;
+	margin: 0;
+}
+
+.content-primary, .content-secondary, .content-tertiary {
+	margin: 6% 0 6% 0;
+}
+
+.content-primary .headline-banner {
+	border-left: none;
+}
+
+.content-secondary .headline-banner {
+	margin-left: 10%;
+}
+
+.content-secondary img {
+	margin-left: -1%;
+}
+
+.content-tertiary .headline-banner {
+	border-left: none;
+}
+
+.main-footer {
+	text-align: center;
+	background-color: #2d2942;
+	margin-top: 10%;
+}
+
+.main-footer ul li {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 2%;
+}
+
+/*******************************************************
+	Index.html
+*******************************************************/
+
+.home {
+	background-image: url('../images/hard-drive-dark.png');
+	background-size: initial;
+	-webkit-background-size: initial;
+	-moz-background-size: initial;
+	-o-background-size: initial;
+	background-color: #cccccc;
+	min-height: 100%;
+	color: #fff;
+	font-size: 2em;
+	text-align: left;
+}
+
+.index-header {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.mission {
+	margin: 10% 0 0 6%;
+	font-size: 1.3em;
+	font-family: 'Courier';
+}
+
+
+/*******************************************************
+	Onsite.html
+*******************************************************/
+
+
+.onsite-hero {
+	height: 600px;
+	background-image: url('../images/onsite-1920w.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	color: #fff;
+}
+
+.onsite-description p {
+	width: 100%;	
+}
+
+.hardware-repair p:nth-child(5) {
+	margin-top: 2%;
+}
+
+.data-backup p:nth-child(4), p:nth-child(5) {
+	margin-top: 2%;
+}
+
+
+/******************************************************
+	Remote.html
+*******************************************************/
+
+.remote-hero {
+	height: 600px;
+	background-image: url('../images/remote-1920w.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	min-height: 100%;
+	color: #fff;
+}
+
+.remote-description p {
+	width: 100%;	
+}
+
+.os-software p:nth-child(4) {
+	margin-top: 2%;
+}
+
+
+/********************************************************
+	Support.html
+********************************************************/
+
+.support-hero {
+	height: 600px;
+	background-image: url('../images/support-1920w.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	min-height: 100%;
+	color: #fff;
+}
+
+
+/********************************************************
+	Web.html
+********************************************************/
+
+.web-hero {
+	height: 600px;
+	background-image: url('../images/web-1920w.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	min-height: 100%;
+	color: #fff;
+}
+
+.web-description {
+	margin: 0;
+	text-align: left;
+}
+
+.maintenance p:nth-child(5) {
+	margin-top: 2%;
+}
+
+.seo p:nth-child(4), .seo p:nth-child(5) {
+	margin-top: 2%;
+}
+
+/*********************************************************
+	Contact.html
+*********************************************************/
+
+.contact {
+	display: block;
+	text-align: center;
+	margin: 6% auto;
+}
+
+.contact-hero {
+	height: 600px;
+	background-image: url('../images/analog-phone-1920w.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	min-height: 100%;
+	color: #fff;	
+}
+	
+}

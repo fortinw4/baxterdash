@@ -51,11 +51,8 @@ h3, section h2 {
 	text-align: center;
 }
 
-.description p {
-	margin: 0 auto;
-	line-height: 150%;
-	width: 30%;
-	font-size: 1.2em;
+.content-primary p {
+	width: 78%;
 }
 
 section img {

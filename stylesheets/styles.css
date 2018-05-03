@@ -41,6 +41,10 @@ section img {
 	display: inline-block;
 }
 
+p {
+	font-size: 1.2em;
+}
+
 @media screen and (min-width: 390px) {
 
 

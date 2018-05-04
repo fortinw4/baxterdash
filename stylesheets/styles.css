@@ -22,6 +22,8 @@ a {
 	color: #fff;
 }
 
+
+
 h2 {
 	margin-bottom: 2%;
 	font-size: 2em;
@@ -43,42 +45,15 @@ section img {
 
 p {
 	font-size: 1.2em;
+	text-align: center;
+	margin: 20px 30px;
 }
-
-@media screen and (min-width: 390px) {
-
-
-
 
 h3, section h2 {
 	font-family: 'Courier';
 	text-align: center;
 }
 
-.content-primary p {
-	width: 78%;
-}
-
-section img {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	margin: 0 -.4% 0 2%;
-	border: 5px solid black;
-	width: 23%;
-}
-
-.headline-banner {
-	position: relative;
-	z-index: -1;
-	display: inline-block;
-	height: 40px;
-	background-color: #94db4c;
-	width: 65%;
-	vertical-align: middle;
-	border: 5px solid black;
-	margin: 0 0 17% 0;
-}
 
 .main-header {
 	color: #fff;
@@ -95,7 +70,7 @@ section img {
 .main-nav ul li {
 	display: inline-block;
 	text-decoration: none;
-	padding: 2%;
+	padding: 3%;
 }
 
 .dropdown {
@@ -156,13 +131,14 @@ section img {
 }
 
 .sub-header address a, .sub-header address p {
-	display: inline-block;
-	background-image: url('../images/email-icon-28h.png');
-	background-repeat: no-repeat;
-	background-position: left;
-	padding: 20px 0px 20px 100px;	
-	margin-right: 95px;
+    display: inline-block;
+    background-image: url(../images/email-icon-28h.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px 21px 11px 62px;
 }
+
+
 
 .sub-header address p {
 	background-image: url('../images/phone-icon-28h.png');
@@ -190,7 +166,7 @@ section img {
 }
 
 .content-secondary img {
-	margin-left: -1%;
+
 }
 
 .content-tertiary .headline-banner {
@@ -209,6 +185,54 @@ section img {
 	color: #fff;
 	padding: 2%;
 }
+
+.onsite-hero {
+	height: 240px;
+	background-image: url('../images/onsite-1920w.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-color: #cccccc;
+	color: #fff;
+}
+
+
+
+
+@media screen and (min-width: 420px) {
+
+
+.headline-banner {
+	position: relative;
+	z-index: -1;
+	display: inline-block;
+	height: 40px;
+	background-color: #94db4c;
+	width: 65%;
+	vertical-align: middle;
+	border: 5px solid black;
+	margin: 0 0 17% 0;
+}
+
+section img {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 -10.4% 0 9%;
+    border: 5px solid black;
+    width: 23%;
+}
+
+
+.sub-header address a, .sub-header address p {
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 20px 0px 20px 100px;	
+	margin-right: 95px;
+}
+
 
 /*******************************************************
 	Index.html
@@ -242,7 +266,6 @@ section img {
 	Onsite.html
 *******************************************************/
 
-
 .onsite-hero {
 	height: 600px;
 	background-image: url('../images/onsite-1920w.jpg');
@@ -253,10 +276,6 @@ section img {
 	-o-background-size: cover;
 	background-color: #cccccc;
 	color: #fff;
-}
-
-.onsite-description p {
-	width: 100%;	
 }
 
 .hardware-repair p:nth-child(5) {

@@ -22,6 +22,8 @@ a {
 	color: #fff;
 }
 
+
+
 h2 {
 	margin-bottom: 2%;
 	font-size: 2em;
@@ -31,38 +33,27 @@ h3 {
 	font-size: 1.5em;
 }
 
-h3, section h2 {
-	font-family: 'Courier';
-	text-align: center;
-}
-
-section p {
-	margin: 0 auto;
-	line-height: 150%;
-	width: 30%;
-	font-size: 1.2em;
+section h3 {
+height: 68px;	
 }
 
 section img {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
-	margin: 0 -.4% 0 2%;
-	border: 5px solid black;
-	width: 23%;
 }
 
-.headline-banner {
-	position: relative;
-	z-index: -1;
-	display: inline-block;
-	height: 40px;
-	background-color: #94db4c;
-	width: 65%;
-	vertical-align: middle;
-	border: 5px solid black;
-	margin: 0 0 17% 0;
+p {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 20px 30px;
 }
+
+h3, section h2 {
+	font-family: 'Courier';
+	text-align: center;
+}
+
 
 .main-header {
 	color: #fff;
@@ -79,7 +70,7 @@ section img {
 .main-nav ul li {
 	display: inline-block;
 	text-decoration: none;
-	padding: 2%;
+	padding: 3%;
 }
 
 .dropdown {
@@ -140,13 +131,14 @@ section img {
 }
 
 .sub-header address a, .sub-header address p {
-	display: inline-block;
-	background-image: url('../images/email-icon-28h.png');
-	background-repeat: no-repeat;
-	background-position: left;
-	padding: 20px 0px 20px 100px;	
-	margin-right: 95px;
+    display: inline-block;
+    background-image: url(../images/email-icon-28h.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0px 21px 11px 62px;
 }
+
+
 
 .sub-header address p {
 	background-image: url('../images/phone-icon-28h.png');
@@ -174,7 +166,7 @@ section img {
 }
 
 .content-secondary img {
-	margin-left: -1%;
+
 }
 
 .content-tertiary .headline-banner {
@@ -194,41 +186,8 @@ section img {
 	padding: 2%;
 }
 
-/*******************************************************
-	Index.html
-*******************************************************/
-
-.home {
-	background-image: url('../images/hard-drive-dark.png');
-	background-size: initial;
-	-webkit-background-size: initial;
-	-moz-background-size: initial;
-	-o-background-size: initial;
-	background-color: #cccccc;
-	min-height: 100%;
-	color: #fff;
-	font-size: 2em;
-	text-align: left;
-}
-
-.index-header {
-	background-color: rgba(0,0,0,0.3);
-}
-
-.mission {
-	margin: 10% 0 0 6%;
-	font-size: 1.3em;
-	font-family: 'Courier';
-}
-
-
-/*******************************************************
-	Onsite.html
-*******************************************************/
-
-
 .onsite-hero {
-	height: 600px;
+	height: 240px;
 	background-image: url('../images/onsite-1920w.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -239,108 +198,186 @@ section img {
 	color: #fff;
 }
 
-.onsite-description p {
-	width: 100%;	
-}
-
-.hardware-repair p:nth-child(5) {
-	margin-top: 2%;
-}
-
-.data-backup p:nth-child(4), p:nth-child(5) {
-	margin-top: 2%;
-}
 
 
-/******************************************************
-	Remote.html
-*******************************************************/
 
-.remote-hero {
-	height: 600px;
-	background-image: url('../images/remote-1920w.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-color: #cccccc;
-	min-height: 100%;
-	color: #fff;
-}
-
-.remote-description p {
-	width: 100%;	
-}
-
-.os-software p:nth-child(4) {
-	margin-top: 2%;
-}
+@media screen and (min-width: 420px) {
 
 
-/********************************************************
-	Support.html
-********************************************************/
+	.headline-banner {
+		position: relative;
+		z-index: -1;
+		display: inline-block;
+		height: 40px;
+		background-color: #94db4c;
+		width: 65%;
+		vertical-align: middle;
+		border: 5px solid black;
+		margin: 0 0 17% 0;
+	}
 
-.support-hero {
-	height: 600px;
-	background-image: url('../images/support-1920w.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-color: #cccccc;
-	min-height: 100%;
-	color: #fff;
-}
+	section img {
+	    position: relative;
+	    z-index: 1;
+	    display: inline-block;
+	    margin: 0 -10.4% 0 9%;
+	    border: 5px solid black;
+	    width: 23%;
+	}
 
 
-/********************************************************
-	Web.html
-********************************************************/
+	.sub-header address a, .sub-header address p {
+		background-repeat: no-repeat;
+		background-position: left;
+		padding: 20px 0px 20px 100px;	
+		margin-right: 95px;
+	}
 
-.web-hero {
-	height: 600px;
-	background-image: url('../images/web-1920w.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-color: #cccccc;
-	min-height: 100%;
-	color: #fff;
-}
 
-.web-description {
-	margin: 0;
-	text-align: left;
-}
+	/*******************************************************
+		Index.html
+	*******************************************************/
 
-.maintenance p:nth-child(5) {
-	margin-top: 2%;
-}
+	.home {
+		background-image: url('../images/hard-drive-dark.png');
+		background-size: initial;
+		-webkit-background-size: initial;
+		-moz-background-size: initial;
+		-o-background-size: initial;
+		background-color: #cccccc;
+		min-height: 100%;
+		color: #fff;
+		font-size: 2em;
+		text-align: left;
+	}
 
-.seo p:nth-child(4), .seo p:nth-child(5) {
-	margin-top: 2%;
-}
+	.index-header {
+		background-color: rgba(0,0,0,0.3);
+	}
 
-/*********************************************************
-	Contact.html
-*********************************************************/
+	.mission {
+		margin: 10% 0 0 6%;
+		font-size: 1.3em;
+		font-family: 'Courier';
+	}
 
-.contact {
-	display: block;
-	text-align: center;
-	margin: 6% auto;
-}
 
-.contact-hero {
-	height: 600px;
-	background-image: url('../images/analog-phone-1920w.png');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-color: #cccccc;
-	min-height: 100%;
-	color: #fff;	
+	/*******************************************************
+		Onsite.html
+	*******************************************************/
+
+	.onsite-hero {
+		height: 600px;
+		background-image: url('../images/onsite-1920w.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #cccccc;
+		color: #fff;
+	}
+
+	.hardware-repair p:nth-child(5) {
+		margin-top: 2%;
+	}
+
+	.data-backup p:nth-child(4), p:nth-child(5) {
+		margin-top: 2%;
+	}
+
+
+	/******************************************************
+		Remote.html
+	*******************************************************/
+
+	.remote-hero {
+		height: 600px;
+		background-image: url('../images/remote-1920w.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #cccccc;
+		min-height: 100%;
+		color: #fff;
+	}
+
+	.remote-description p {
+		width: 100%;	
+	}
+
+	.os-software p:nth-child(4) {
+		margin-top: 2%;
+	}
+
+
+	/********************************************************
+		Support.html
+	********************************************************/
+
+	.support-hero {
+		height: 600px;
+		background-image: url('../images/support-1920w.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #cccccc;
+		min-height: 100%;
+		color: #fff;
+	}
+
+
+	/********************************************************
+		Web.html
+	********************************************************/
+
+	.web-hero {
+		height: 600px;
+		background-image: url('../images/web-1920w.jpg');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #cccccc;
+		min-height: 100%;
+		color: #fff;
+	}
+
+	.web-description {
+		margin: 0;
+		text-align: left;
+	}
+
+	.maintenance p:nth-child(5) {
+		margin-top: 2%;
+	}
+
+	.seo p:nth-child(4), .seo p:nth-child(5) {
+		margin-top: 2%;
+	}
+
+	/*********************************************************
+		Contact.html
+	*********************************************************/
+
+	.contact {
+		display: block;
+		text-align: center;
+		margin: 6% auto;
+	}
+
+	.contact-hero {
+		height: 600px;
+		background-image: url('../images/analog-phone-1920w.png');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #cccccc;
+		min-height: 100%;
+		color: #fff;	
+	}
+	
 }
